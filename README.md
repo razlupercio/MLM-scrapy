@@ -3,5 +3,7 @@
 
 
 
+```
 pip install scrapy
 pip install image
+```
