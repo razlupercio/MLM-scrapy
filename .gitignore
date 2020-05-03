@@ -16,6 +16,7 @@ htmlcov/
 .coverage.*
 .cache/
 *.csv
+__pycache__
 
 # Windows
 Thumbs.db
