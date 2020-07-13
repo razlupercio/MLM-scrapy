@@ -9,13 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'mercado'
+BOT_NAME = 'MLMscrapy'
 
 SPIDER_MODULES = ['mercado.spiders']
 NEWSPIDER_MODULE = 'mercado.spiders'
 
 #CSV Importacion
-ITEM_PIPELINES = {'mercado.pipelines.MercadoPipeline': 1}
+#ITEM_PIPELINES = {'mercado.pipelines.MercadoPipeline': 1}
+ITEM_PIPELINES = {'MLM-scrapy.pipelines.MercadoPipeline': 1}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'mercado (+http://www.yourdomain.com)'
